@@ -1,0 +1,8 @@
+publish: true
+type: competition
+world:
+  file: worlds/humanoid_marathon.wbt
+  max-duration: 120
+  metric: distance
+  higher-is-better: true
+dockerCompose: competition:webots-project/controllers/participant/
